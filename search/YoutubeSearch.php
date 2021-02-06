@@ -11,6 +11,6 @@ if ($_POST['search'] && $_POST['search'] != null) {
         $videoId[] = $item->id->videoId;
     }
     
-    echo json_encode($result);
+    echo json_encode($videoId);
 
 }
